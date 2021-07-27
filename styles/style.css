@@ -1,0 +1,131 @@
+
+#container {
+  display: flex;
+}
+
+#header-img {
+    display: flex;
+    justify-content: start;
+    background-color: white;
+}
+
+#header {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  position: fixed;
+  width: 100%;
+  background-color: white;
+}
+
+.log {
+  width: 60vw;
+}
+
+#nav-bar {
+  display: flex;
+  justify-content: start;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.nav-link {
+  padding-right: 70px;
+  text-decoration: none;
+  color: black;
+}
+
+.form-element {
+  margin-top: 100px;
+  text-align: center;
+  margin-bottom: -90x;
+}
+
+@media (max-width: 400px) {
+  .container {
+    max-width: 540px;
+  }
+  #image {
+    width: 60vw;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+
+#features {
+  text-align: center;
+  margin: 0 0 10px 0;
+}
+
+@media (max-width: 550px) {
+  #features .icon {
+    display: none;
+  }
+}
+
+#video {
+  text-align: center;
+}
+
+#features {
+  margin-top: 120px;
+}
+
+#how-it-works {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+#how-it-works > iframe {
+  max-width: 560px;
+  width: 100%;
+}
+
+#pricing {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  
+}
+  
+@media (max-width: 575px) {
+    #pricing {
+      display: flex;
+      flex-wrap: wrap;
+      width: 100%;
+    }
+  }
+
+.box {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid;
+  width: 250px;
+  margin: 10px;
+  text-align: center;
+}
+
+.box-title {
+  background-color: #ddd;
+  padding: 15px 0px;
+}
+
+.box > h2 {
+}
+
+.box > ol {
+  margin: 0 20px 0 -25px;
+  list-style: none;
+}
+
+.box > button {
+  border: 0;
+  margin: 15px 35%;
+  height: 35px;
+}
